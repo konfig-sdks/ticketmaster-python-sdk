@@ -1,0 +1,88 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from ticketmaster_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from ticketmaster_python_sdk.model.access_dates import AccessDates
+from ticketmaster_python_sdk.model.accessibility import Accessibility
+from ticketmaster_python_sdk.model.address import Address
+from ticketmaster_python_sdk.model.area import Area
+from ticketmaster_python_sdk.model.attraction import Attraction
+from ticketmaster_python_sdk.model.attraction_external_links import AttractionExternalLinks
+from ticketmaster_python_sdk.model.attraction_upcoming_events import AttractionUpcomingEvents
+from ticketmaster_python_sdk.model.attribution import Attribution
+from ticketmaster_python_sdk.model.attributions import Attributions
+from ticketmaster_python_sdk.model.attributions_descriptions import AttributionsDescriptions
+from ticketmaster_python_sdk.model.chronology import Chronology
+from ticketmaster_python_sdk.model.city import City
+from ticketmaster_python_sdk.model.classification import Classification
+from ticketmaster_python_sdk.model.country import Country
+from ticketmaster_python_sdk.model.date_time_field import DateTimeField
+from ticketmaster_python_sdk.model.date_time_field_type import DateTimeFieldType
+from ticketmaster_python_sdk.model.date_time_zone import DateTimeZone
+from ticketmaster_python_sdk.model.display_setting_extension import DisplaySettingExtension
+from ticketmaster_python_sdk.model.dma import Dma
+from ticketmaster_python_sdk.model.duration_field import DurationField
+from ticketmaster_python_sdk.model.duration_field_type import DurationFieldType
+from ticketmaster_python_sdk.model.end_dates import EndDates
+from ticketmaster_python_sdk.model.entity_changes import EntityChanges
+from ticketmaster_python_sdk.model.entity_changes_changes import EntityChangesChanges
+from ticketmaster_python_sdk.model.event import Event
+from ticketmaster_python_sdk.model.event_dates import EventDates
+from ticketmaster_python_sdk.model.event_external_links import EventExternalLinks
+from ticketmaster_python_sdk.model.event_images import EventImages
+from ticketmaster_python_sdk.model.event_sales_dates import EventSalesDates
+from ticketmaster_python_sdk.model.event_status import EventStatus
+from ticketmaster_python_sdk.model.external_link import ExternalLink
+from ticketmaster_python_sdk.model.genre import Genre
+from ticketmaster_python_sdk.model.geocode_extension import GeocodeExtension
+from ticketmaster_python_sdk.model.geolocation_venue_extensions import GeolocationVenueExtensions
+from ticketmaster_python_sdk.model.geometry import Geometry
+from ticketmaster_python_sdk.model.image import Image
+from ticketmaster_python_sdk.model.level import Level
+from ticketmaster_python_sdk.model.local_time import LocalTime
+from ticketmaster_python_sdk.model.local_time_values import LocalTimeValues
+from ticketmaster_python_sdk.model.locale import Locale
+from ticketmaster_python_sdk.model.locale_extension_keys import LocaleExtensionKeys
+from ticketmaster_python_sdk.model.locale_unicode_locale_attributes import LocaleUnicodeLocaleAttributes
+from ticketmaster_python_sdk.model.locale_unicode_locale_keys import LocaleUnicodeLocaleKeys
+from ticketmaster_python_sdk.model.location import Location
+from ticketmaster_python_sdk.model.market import Market
+from ticketmaster_python_sdk.model.outlet import Outlet
+from ticketmaster_python_sdk.model.parking import Parking
+from ticketmaster_python_sdk.model.place import Place
+from ticketmaster_python_sdk.model.presale import Presale
+from ticketmaster_python_sdk.model.price_range import PriceRange
+from ticketmaster_python_sdk.model.product import Product
+from ticketmaster_python_sdk.model.promoter import Promoter
+from ticketmaster_python_sdk.model.public_sale_dates import PublicSaleDates
+from ticketmaster_python_sdk.model.relationship import Relationship
+from ticketmaster_python_sdk.model.relationship_references import RelationshipReferences
+from ticketmaster_python_sdk.model.seat_map import SeatMap
+from ticketmaster_python_sdk.model.segment import Segment
+from ticketmaster_python_sdk.model.social import Social
+from ticketmaster_python_sdk.model.start_dates import StartDates
+from ticketmaster_python_sdk.model.state import State
+from ticketmaster_python_sdk.model.ticketmaster_event_extensions import TicketmasterEventExtensions
+from ticketmaster_python_sdk.model.twitter import Twitter
+from ticketmaster_python_sdk.model.twitter_hashtags import TwitterHashtags
+from ticketmaster_python_sdk.model.v2_event_search_response import V2EventSearchResponse
+from ticketmaster_python_sdk.model.v2_find_suggest200_response import V2FindSuggest200Response
+from ticketmaster_python_sdk.model.v2_find_suggest_response import V2FindSuggestResponse
+from ticketmaster_python_sdk.model.v2_find_venues_response import V2FindVenuesResponse
+from ticketmaster_python_sdk.model.v2_search_attractions_response import V2SearchAttractionsResponse
+from ticketmaster_python_sdk.model.v2_search_classifications_response import V2SearchClassificationsResponse
+from ticketmaster_python_sdk.model.venue import Venue
+from ticketmaster_python_sdk.model.venue_box_office_info import VenueBoxOfficeInfo
+from ticketmaster_python_sdk.model.venue_extensions import VenueExtensions
+from ticketmaster_python_sdk.model.venue_external_links import VenueExternalLinks
+from ticketmaster_python_sdk.model.venue_general_info import VenueGeneralInfo
+from ticketmaster_python_sdk.model.venue_upcoming_events import VenueUpcomingEvents
